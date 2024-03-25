@@ -32,7 +32,6 @@ header p {
   font-weight: 400;
   color: #312D64;
   margin-bottom: 35px;
-  
 }
 
 #img2 {
@@ -71,15 +70,14 @@ main {
 .card p {
   font-family: 'Mulish', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 600;
   color: #312D64;
   padding: 0 20px ;
 }
 
 .contact {
   width: 350px;
-  height: 420px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .contact h1 {
@@ -87,17 +85,48 @@ main {
   font-size: 3.2rem;
   font-weight: 900;
   color: #B52184;
-  margin-bottom: 30px;
 }
 
-label {
-  align-items: center;
-  margin: 20px;
+.name {
+  width: 350px;
+  height: 50px;
+  border: 2px solid #312D64;
+  border-radius: 16px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
+.email {
+  width: 350px;
+  height: 50px;
+  border: 2px solid #312D64;
+  border-radius: 16px;
+  padding: 10px;
+  margin-top: 20px;
+}
 
 input {
   border: none;
+  padding: 8px;
+}
+
+::placeholder {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #312D64;
+}
+
+textarea {
+  width: 350px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #312D64;
+  border: 2px solid #312D64;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 16px;
 }
 
 button {
@@ -109,11 +138,13 @@ button {
   font-weight: bold;
   background: #312D64;
   color: #fff;
+  border: none;
   border-radius: 16px;
+  margin-top: 20px;
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 80px;
   width: 430px;
   height: 80px;
   background: #312D64;
